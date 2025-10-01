@@ -441,6 +441,17 @@
         thumbs: {
             swiper: testimonialThumb,
         },
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 3
+            },
+            768: {
+                items: 3
+            }
+        }
     });
 
     // INDEX-3 TEAM SLIDER 
@@ -2610,7 +2621,7 @@
         disableOnInteraction: true,
         breakpoints: {
             320: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 15,
             },
             480: {
@@ -2621,10 +2632,10 @@
                 slidesPerView: 3,
             },
             980: {
-                slidesPerView: 4,
+                slidesPerView: 3,
             },
             1280: {
-                slidesPerView: 4,
+                slidesPerView: 3,
             }
         },
     });
